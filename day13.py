@@ -24,7 +24,6 @@ def visualise(paper):
 folds = (list(
     map(lambda x: x.split("="), [i.replace("fold along ", "") for i in folds])))
 
-
 for fold in folds:
 
         columns = int(max([_[0] for _ in inlist]))
